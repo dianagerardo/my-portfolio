@@ -1,0 +1,18 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://newenglandonthefly.com/wp-content/uploads/2016/10/TenkaraTroutFishingNewEngland-1-of-1-13-1000x667.jpg);
+    background-size: cover;
+}
