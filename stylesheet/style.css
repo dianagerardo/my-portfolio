@@ -16,3 +16,66 @@ body {
     background-image: url(http://newenglandonthefly.com/wp-content/uploads/2016/10/TenkaraTroutFishingNewEngland-1-of-1-13-1000x667.jpg);
     background-size: cover;
 }
+
+.header-container:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.header-container {
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header {
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+}
+#my-name {
+    background-color: teal;
+    float: left;
+    padding: 20px;
+    color: white;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#nav {
+    float: right;
+    padding:20px;
+
+}
+
+#portfolio {
+    border-right: 1px;
+    border-left: 1px;
+    border-color: gray;
+}
+
+.content {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+    background-color: white;
+}
+
+#footer {
+    background-color: gray;
+    border-top: solid;
+    border-top-color: teal;
+    border-width: 8px;
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+
+}
