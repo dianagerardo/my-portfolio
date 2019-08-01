@@ -63,6 +63,7 @@ header:after {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 #nav {
@@ -88,7 +89,7 @@ header:after {
     top: 100px;
     left: 50px;
     right:50px;
-    height: 500px;
+    height: 520px;
 } 
 
 
@@ -117,11 +118,15 @@ header:after {
 #about-me {
     color:rgb(66, 184, 184);
     font-size: 30px;
+    padding-top: 20px;
+    padding-bottom:15px;
+    font-weight: bold;
 }
 
 p {
     font-size: 20px;
-    color: rgb(133, 130, 130)
+    color: rgb(133, 130, 130);
+    padding: 10px;
 }
 
 #footer {
@@ -186,4 +191,129 @@ p {
     margin-right: 10px;
     margin-bottom:10px;
 }
+
+#space {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .space {
+    position: absolute;
+    top: 220px;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:55px;
+    padding-right:56px;
+    background-color: rgb(66, 184, 184);
+  }
+
+  #frog {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .frog {
+    position: absolute;
+    top: 220px;
+    left: 343px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:73px;
+    padding-right:78px;
+    background-color: rgb(66, 184, 184);
+  }
+
+
+  #pac {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .pac {
+    position: absolute;
+    top: 220px;
+    left: 558px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:70px;
+    padding-right:72px;
+    background-color: rgb(66, 184, 184);
+  }
+
+  #geo {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .geo {
+    position: absolute;
+    top: 220px;
+    left: 772px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:69px;
+    padding-right:71px;
+    background-color: rgb(66, 184, 184);
+  }
+
+  #trail {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .trail {
+    position: absolute;
+    top: 385px;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:66px;
+    padding-right:66px;
+    background-color: rgb(66, 184, 184);
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(66, 184, 184);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(4, 255, 213);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
 
