@@ -39,9 +39,10 @@ header {
     padding-right: 30px;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50px;
+    right:50px;
     width: 960px;
-    border: 1px solid gray;
+    border: 1px solid rgb(133, 130, 130);
 }
 
 
@@ -52,25 +53,27 @@ header:after {
 }
 
 #my-name {
-    background-color: teal;
+    background-color: rgb(66, 184, 184);
     float: left;
     padding: 20px;
     color: white;
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
+    font-size: 30px;
 }
 
 #nav {
     float: right;
     padding:20px;
+    overflow: hidden;
 
 }
 
 #portfolio {
     border-right: 1px;
     border-left: 1px;
-    border-color: gray;
+    border-color: rgb(133, 130, 130);
 }
 
 .content {
@@ -79,18 +82,76 @@ header:after {
     padding-right: 30px;
     width: 960px;
     background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right:50px;
+    height: 500px;
 } 
 
 
 #footer {
-    background-color: gray;
+    background-color: rgb(133, 130, 130);
     border-top: solid;
-    border-top-color: teal;
+    border-top-color: rgb(66, 184, 184);
     border-width: 8px;
-    padding-top: 20px;
-    color:white;
+    padding-top: 40px;
     text-align: center;
     font-size: 10px;
     margin: 0 auto;
+    position: fixed;
+    bottom:0;
+    right:50px;
+    left:50px;
+    width: 960px;
+}
 
+#main-picture {
+    display: inline;
+    float: left;
+    padding:10px;
+}
+
+#about-me {
+    color:rgb(66, 184, 184);
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(133, 130, 130)
+}
+
+#footer {
+    color:white;
+}
+
+#about {
+    border-left: 10px;
+}
+
+  
+/* Style the links inside the navigation bar */
+#nav a {
+    float: left;
+    display: block;
+    color: rgb(133, 130, 130);
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+  
+#nav a:hover {
+    border-bottom: 3px solid red;
+}
+  
+#nav a.active {
+    border-bottom: 3px solid red;
+}
+
+#portfolio {
+border-left: 1px solid rgb(133, 130, 130);
+border-right:1px solid rgb(133, 130, 130);
 }
