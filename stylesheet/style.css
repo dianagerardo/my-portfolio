@@ -4,8 +4,6 @@
   ========================================
 */
 
-/* Do CSS rest*/
-
 *,
 *:before,
 *:after {
@@ -14,6 +12,10 @@
           box-sizing: border-box;
 }
 
+
+/* Main body style */
+
+
 body {
     background-image: url(http://newenglandonthefly.com/wp-content/uploads/2016/10/TenkaraTroutFishingNewEngland-1-of-1-13-1000x667.jpg);
     background-size: cover;
@@ -21,12 +23,13 @@ body {
     height: auto;
 }
 
+/* clearfix */
 .header-container:after {
     content: "";
     display:table;
     clear:both;
 }
-
+/* Header styles */
 .header-container {
     background-color: white;
     margin: 0 auto;
@@ -34,6 +37,7 @@ body {
     padding-right: 30px;
 }
 
+/* Header positioning and styling */
 header {
     background-color: white;
     margin: 0 auto;
@@ -47,13 +51,14 @@ header {
     border: 1px solid rgb(133, 130, 130);
 }
 
-
+/* Header clearfix */
 header:after {
     content: "";
     display:table;
     clear:both;
 }
 
+/* Header1 styling */
 #my-name {
     background-color: rgb(66, 184, 184);
     float: left;
@@ -66,6 +71,7 @@ header:after {
     font-weight: bold;
 }
 
+/* Navigation style */
 #nav {
     float: right;
     padding:20px;
@@ -73,12 +79,7 @@ header:after {
 
 }
 
-#portfolio {
-    border-right: 1px;
-    border-left: 1px;
-    border-color: rgb(133, 130, 130);
-}
-
+/* Main content style */
 .content {
     margin: 0 auto;
     padding-left: 30px;
@@ -92,7 +93,7 @@ header:after {
     height: 520px;
 } 
 
-
+/* Footer style */
 #footer {
     background-color: rgb(133, 130, 130);
     border-top: solid;
@@ -108,6 +109,12 @@ header:after {
     left:50px;
     width: 960px;
 }
+
+/*
+  ========================================
+  Main page specific
+  ========================================
+*/
 
 #main-picture {
     display: inline;
@@ -157,6 +164,12 @@ p {
 #nav a.active {
     border-bottom: 3px solid red;
 }
+
+/*
+  ========================================
+  Portfolio page specific
+  ========================================
+*/
 
 #portfolio {
     border-left: 1px solid rgb(133, 130, 130);
@@ -283,15 +296,20 @@ p {
     background-color: rgb(66, 184, 184);
   }
 
+  /*
+  ========================================
+  Contact page specific
+  ========================================
+*/
   /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: 6px; 
+    margin-bottom:6px; 
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
