@@ -220,6 +220,11 @@ p {
     padding-bottom:10px;
     padding-left:55px;
     padding-right:56px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .space:hover {
+    opacity:1;
     background-color: rgb(66, 184, 184);
   }
 
@@ -238,6 +243,11 @@ p {
     padding-bottom:10px;
     padding-left:73px;
     padding-right:78px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .frog:hover {
+    opacity:1;
     background-color: rgb(66, 184, 184);
   }
 
@@ -257,6 +267,11 @@ p {
     padding-bottom:10px;
     padding-left:70px;
     padding-right:72px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .pac:hover {
+    opacity:1;
     background-color: rgb(66, 184, 184);
   }
 
@@ -275,6 +290,11 @@ p {
     padding-bottom:10px;
     padding-left:69px;
     padding-right:71px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .geo:hover {
+    opacity:1;
     background-color: rgb(66, 184, 184);
   }
 
@@ -293,6 +313,11 @@ p {
     padding-bottom:10px;
     padding-left:66px;
     padding-right:66px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .trail:hover {
+    opacity:1;
     background-color: rgb(66, 184, 184);
   }
 
